@@ -4,14 +4,14 @@
 (function () {
   "use strict";
 
-  var settings = require("./settings");
-  var speech = require("./speech");
-  var intent = require("./intent");
-  var translate = require("./translation");
-  var synthesis = require("./synthesis");
-  var pronunciationAssessmentContinue = require("./pronunciationAssessmentContinue");
-  var pronunciationAssessment = require("./pronunciationAssessment");
-  var pronunciationAssessmentConfiguredWithJson = require("./pronunciationAssessmentConfiguredWithJson");
+  let settings = require("./settings");
+  let speech = require("./speech");
+  let intent = require("./intent");
+  let translate = require("./translation");
+  let synthesis = require("./synthesis");
+  let pronunciationAssessmentContinue = require("./pronunciationAssessmentContinue");
+  let pronunciationAssessment = require("./pronunciationAssessment");
+  let pronunciationAssessmentConfiguredWithJson = require("./pronunciationAssessmentConfiguredWithJson");
 
   if (process.argv.length > 3) {
     settings.filename = process.argv[3];
